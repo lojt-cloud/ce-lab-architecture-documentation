@@ -2,7 +2,7 @@
 
 **Student Name:** Balint Lojt
 **Date Completed:20/07/2026
-
+## RENAME this file TO ARCHITECTURE.md!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ---
 
 ## Overview
@@ -21,12 +21,12 @@ monitoring.
 **File:** `architecture-diagram.png`
 
 **Diagram should show:**
-- [X] All EC2 instances (bastion, web, app, database)
-- [X] Security groups and their relationships
-- [X] Network flow arrows (internet → web → app → database)
-- [x] Availability zone(s)
-- [X] Public vs. private subnet placement
-- [x] SSH access path (bastion only)
+- [ ] All EC2 instances (bastion, web, app, database)
+- [ ] Security groups and their relationships
+- [ ] Network flow arrows (internet → web → app → database)
+- [ ] Availability zone(s)
+- [ ] Public vs. private subnet placement
+- [ ] SSH access path (bastion only)
 
 ---
 
@@ -182,9 +182,9 @@ week's actual gaps:
 
 ## Files Checklist
 
-- [X] `README.md` - Overview
-- [X] `ARCHITECTURE.md` - Detailed architecture description
-- [X] `architecture-diagram.png` - Visual diagram
-- [X] `SECURITY.md` - Security documentation
-- [X] `COSTS.md` - Cost analysis
-- [X] `IMPROVEMENTS.md` - Proposed improvements
+- [ ] `README.md` - Overview
+- [ ] `ARCHITECTURE.md` - Detailed architecture description
+- [ ] `architecture-diagram.png` - Visual diagram
+- [ ] `SECURITY.md` - Security documentation
+- [ ] `COSTS.md` - Cost analysis
+- [ ] `IMPROVEMENTS.md` - Proposed improvements
