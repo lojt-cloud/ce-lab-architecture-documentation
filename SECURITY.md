@@ -11,10 +11,10 @@ reasoning: web-tier is the customer facing side so should have open port to the 
 
 
 security group: database-sg
-inbound: SSH:22 and TCP:3306 
-outound: HTTPS:443 
-reasoning:
-database-sh should only allow bastion(SSH) and TCP:3306 for NySQL queries communication. Never be exposed to the internet.
+Inbound: SSH:22 from bastion-sg only, TCP:3306 from app-tier-sg only
+Outbound: HTTPS:443 to 0.0.0.0/0 (package downloads)
+Reasoning: database-sg should only ever accept connections from bastion (for SSH management) and app-tier (for MySQL queries) and never directly from the internet or any other tier. This is the most locked-down group
+in the whole architecture, since the database holds the most sensitive data.
 
 Security group: app-tier-sg
 inbound: TCP:8080 and SSH(22)
